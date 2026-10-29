@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+
+  <title>Aryan Soni | AI/ML Student, Developer &amp; Creative Agency Founder</title>
+  <meta name="description" content="Portfolio of Aryan Soni — B.Tech CSE (AI/ML) student at Jagran Lakecity University building Python and machine learning projects, and founder of the animation and YouTube automation agency Create With Aryan." />
+  <meta name="author" content="Aryan Soni" />
+  <meta name="keywords" content="Aryan Soni, AI/ML, Machine Learning, Python, OpenCV, Data Analysis, Face Recognition, Portfolio, Create With Aryan" />
+  <meta name="theme-color" content="#F6F4EE" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+  <!-- Open Graph / social sharing.
+       After deploying, change the image URLs below to absolute URLs, e.g.
+       https://your-domain.com/og-image.png (see README). -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Aryan Soni" />
+  <meta property="og:title" content="Aryan Soni | AI/ML Student, Developer &amp; Creative Agency Founder" />
+  <meta property="og:description" content="Building intelligent solutions. Leading creative ideas. Python, machine learning, face recognition and a creative production agency." />
+  <meta property="og:image" content="og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Aryan Soni — Building intelligent solutions. Leading creative ideas." />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Aryan Soni | AI/ML Student, Developer &amp; Creative Agency Founder" />
+  <meta name="twitter:description" content="Building intelligent solutions. Leading creative ideas." />
+  <meta name="twitter:image" content="og-image.png" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Aryan Soni",
+    "email": "mailto:aryansoni.js@gmail.com",
+    "jobTitle": "B.Tech CSE (AI/ML) Student and Agency Founder",
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Jagran Lakecity University" },
+    "sameAs": ["https://www.linkedin.com/in/aryan-soni-5156822a7"]
+  }
+  </script>
+
+  <!-- Apply saved theme and enable reveal animations before first paint -->
+  <script>
+    (function () {
+      var d = document.documentElement;
+      d.classList.add('js');
+      try {
+        var t = localStorage.getItem('theme');
+        if (t === 'dark' || t === 'light') d.setAttribute('data-theme', t);
+      } catch (e) {}
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- SVG icon sprite -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="i-arrow-up-right" viewBox="0 0 24 24"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></symbol>
+      <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol>
+      <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></symbol>
+      <symbol id="i-download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></symbol>
+      <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></symbol>
+      <symbol id="i-github" viewBox="0 0 24 24"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></symbol>
+      <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></symbol>
+      <symbol id="i-moon" viewBox="0 0 24 24"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h16"/></symbol>
+      <symbol id="i-close" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+      <symbol id="i-alert" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/></symbol>
+      <symbol id="i-send" viewBox="0 0 24 24"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></symbol>
+      <symbol id="i-code" viewBox="0 0 24 24"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/></symbol>
+      <symbol id="i-cpu" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 1v3"/><path d="M15 1v3"/><path d="M9 20v3"/><path d="M15 20v3"/><path d="M20 9h3"/><path d="M20 14h3"/><path d="M1 9h3"/><path d="M1 14h3"/></symbol>
+      <symbol id="i-wrench" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></symbol>
+      <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"/><path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"/><path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"/></symbol>
+      <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+      <symbol id="i-database" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5"/><path d="M3 12a9 3 0 0 0 18 0"/></symbol>
+      <symbol id="i-scan-face" viewBox="0 0 24 24"><path d="M3 7V5a2 2 0 0 1 2-2h2"/><path d="M17 3h2a2 2 0 0 1 2 2v2"/><path d="M21 17v2a2 2 0 0 1-2 2h-2"/><path d="M7 21H5a2 2 0 0 1-2-2v-2"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><path d="M9 9h.01"/><path d="M15 9h.01"/></symbol>
+      <symbol id="i-user-plus" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6"/><path d="M22 11h-6"/></symbol>
+      <symbol id="i-clipboard-check" viewBox="0 0 24 24"><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="m9 14 2 2 4-4"/></symbol>
+      <symbol id="i-film" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="2.18"/><path d="M7 2v20"/><path d="M17 2v20"/><path d="M2 12h20"/><path d="M2 7h5"/><path d="M2 17h5"/><path d="M17 17h5"/><path d="M17 7h5"/></symbol>
+      <symbol id="i-graduation" viewBox="0 0 24 24"><path d="M22 10 12 5 2 10l10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/><path d="M22 10v6"/></symbol>
+      <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></symbol>
+      <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4"/><path d="M8 2v4"/><path d="M3 10h18"/></symbol>
+    </defs>
+  </svg>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="site-header">
+    <div class="container nav">
+      <a class="logo" href="#home" aria-label="Aryan Soni — home">
+        <span class="logo-mark">AS</span>
+        <span class="logo-text">Aryan Soni</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary">
+        <ul>
+          <li><a href="#about" data-nav>About</a></li>
+          <li><a href="#skills" data-nav>Skills</a></li>
+          <li><a href="#projects" data-nav>Projects</a></li>
+          <li><a href="#experience" data-nav>Experience</a></li>
+          <li><a href="#achievements" data-nav>Achievements</a></li>
+          <li><a href="#contact" data-nav>Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">
+          <svg class="icon icon-moon" aria-hidden="true"><use href="#i-moon"/></svg>
+          <svg class="icon icon-sun" aria-hidden="true"><use href="#i-sun"/></svg>
+        </button>
+        <a class="btn btn-primary btn-sm nav-cta" href="#contact">Let&rsquo;s Connect</a>
+        <button class="icon-btn menu-toggle" id="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+          <svg class="icon icon-open" aria-hidden="true"><use href="#i-menu"/></svg>
+          <svg class="icon icon-close" aria-hidden="true"><use href="#i-close"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <nav class="container" aria-label="Mobile">
+        <ul>
+          <li><a href="#about" data-nav><span class="mono">01</span>About</a></li>
+          <li><a href="#skills" data-nav><span class="mono">02</span>Skills</a></li>
+          <li><a href="#projects" data-nav><span class="mono">03</span>Projects</a></li>
+          <li><a href="#experience" data-nav><span class="mono">04</span>Experience</a></li>
+          <li><a href="#achievements" data-nav><span class="mono">05</span>Achievements</a></li>
+          <li><a href="#contact" data-nav><span class="mono">06</span>Contact</a></li>
+        </ul>
+        <a class="btn btn-primary btn-block" href="#contact">Let&rsquo;s Connect</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home" aria-labelledby="hero-title" data-section>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow reveal"><span class="eyebrow-dot" aria-hidden="true"></span>B.Tech CSE (AI/ML) &middot; Founder, Create With Aryan</p>
+          <h1 id="hero-title" class="reveal" style="--d:60ms">
+            Building Intelligent Solutions. <span class="accent">Leading Creative Ideas.</span>
+          </h1>
+          <p class="lead reveal" style="--d:120ms">
+            I&rsquo;m Aryan Soni &mdash; a Computer Science Engineering student specializing in AI/ML, exploring intelligent technologies while building and managing a creative production agency.
+          </p>
+
+          <div class="hero-cta reveal" style="--d:180ms">
+            <a class="btn btn-primary" href="#projects">Explore My Projects <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+            <a class="btn btn-secondary" href="#contact">Get In Touch</a>
+            <a class="btn btn-ghost" id="resume-open" href="Aryan_Soni_Resume.pdf" target="_blank" rel="noopener" aria-haspopup="dialog">
+              <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg> View Resume
+            </a>
+          </div>
+
+          <ul class="badge-row reveal" style="--d:240ms" aria-label="Core technologies">
+            <li class="badge">Python</li>
+            <li class="badge">Machine Learning</li>
+            <li class="badge">Data Analysis</li>
+            <li class="badge">OpenCV</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about" aria-labelledby="about-title" data-section>
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-kicker"><span class="mono">01</span> About</p>
+          <h2 id="about-title">Where code meets <span class="accent">creative</span> leadership.</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p>
+              I&rsquo;m a B.Tech CSE (AI/ML) student at Jagran Lakecity University with hands-on experience in Python, machine learning and data analysis, plus a working knowledge of data structures and DBMS.
+            </p>
+            <p>
+              Alongside my studies I run <strong>Create With Aryan</strong>, an animation and YouTube automation agency. Leading a creative team has taught me to plan carefully, communicate clearly and deliver on time &mdash; habits that carry straight into how I build software.
+            </p>
+            <p>
+              I take part in hackathons and technical conferences to keep learning from other builders.
+            </p>
+
+            <dl class="facts">
+              <div><dt>Studying</dt><dd>B.Tech CSE (AI/ML)</dd></div>
+              <div><dt>University</dt><dd>Jagran Lakecity University</dd></div>
+              <div><dt>Running</dt><dd>Create With Aryan</dd></div>
+            </dl>
+          </div>
+
+          <ol class="pillars">
+            <li class="pillar reveal" style="--d:60ms">
+              <span class="pillar-icon"><svg class="icon" aria-hidden="true"><use href="#i-cpu"/></svg></span>
+              <div>
+                <h3><span class="mono">01</span> Technology</h3>
+                <p>Studying computer science and exploring AI/ML, Python, computer vision and data analysis.</p>
+              </div>
+            </li>
+            <li class="pillar reveal" style="--d:120ms">
+              <span class="pillar-icon"><svg class="icon" aria-hidden="true"><use href="#i-code"/></svg></span>
+              <div>
+                <h3><span class="mono">02</span> Building</h3>
+                <p>Turning ideas into practical software, such as a face-recognition-based attendance system with a simple interface and an SQLite database.</p>
+              </div>
+            </li>
+            <li class="pillar reveal" style="--d:180ms">
+              <span class="pillar-icon"><svg class="icon" aria-hidden="true"><use href="#i-film"/></svg></span>
+              <div>
+                <h3><span class="mono">03</span> Entrepreneurship</h3>
+                <p>Managing an animation and YouTube automation agency and coordinating animators, editors and voiceover artists.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section-tint" id="skills" aria-labelledby="skills-title" data-section>
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-kicker"><span class="mono">02</span> Skills</p>
+          <h2 id="skills-title">A toolkit for data, models and <span class="accent">delivery.</span></h2>
+        </div>
+
+        <div class="bento">
+          <article class="card skill-card b1 reveal">
+            <header><span class="skill-icon"><svg class="icon" aria-hidden="true"><use href="#i-code"/></svg></span><h3>Programming &amp; Data</h3></header>
+            <ul class="tag-row tag-lg"><li>Python</li><li>C</li><li>SQL</li><li>Data Analysis</li></ul>
+          </article>
+
+          <article class="card skill-card b2 reveal" style="--d:60ms">
+            <header><span class="skill-icon"><svg class="icon" aria-hidden="true"><use href="#i-cpu"/></svg></span><h3>AI &amp; Machine Learning</h3></header>
+            <ul class="tag-row tag-lg"><li>Machine Learning</li><li>OpenCV</li><li>Scikit-learn</li></ul>
+          </article>
+
+          <article class="card skill-card b3 reveal" style="--d:120ms">
+            <header><span class="skill-icon"><svg class="icon" aria-hidden="true"><use href="#i-wrench"/></svg></span><h3>Libraries &amp; Development Tools</h3></header>
+            <ul class="tag-row tag-lg"><li>Pandas</li><li>NumPy</li><li>Jupyter Notebook</li></ul>
+          </article>
+
+          <article class="card skill-card b4 reveal" style="--d:180ms">
+            <header><span class="skill-icon"><svg class="icon" aria-hidden="true"><use href="#i-layers"/></svg></span><h3>CS Fundamentals</h3></header>
+            <ul class="tag-row tag-lg"><li>Data Structures</li><li>DBMS</li></ul>
+          </article>
+
+          <article class="card skill-card b5 reveal" style="--d:240ms">
+            <header><span class="skill-icon"><svg class="icon" aria-hidden="true"><use href="#i-users"/></svg></span><h3>Professional Skills</h3></header>
+            <ul class="tag-row tag-lg"><li>Problem Solving</li><li>Teamwork</li><li>Communication</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURED PROJECT ============ -->
+    <section class="section" id="projects" aria-labelledby="projects-title" data-section>
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-kicker"><span class="mono">03</span> Projects</p>
+          <h2 id="projects-title">Featured <span class="accent">project.</span></h2>
+        </div>
+
+        <article class="project-card reveal">
+          <div class="project-top">
+            <div class="project-title">
+              <span class="chip">Featured project</span>
+              <h3>Smart Attendance System <span class="accent">Using Face Recognition</span></h3>
+            </div>
+            <ul class="tag-row" aria-label="Technologies used">
+              <li>Python</li><li>Face Recognition</li><li>SQLite</li>
+            </ul>
+          </div>
+
+          <div class="project-grid">
+            <div class="project-copy">
+              <dl class="pdef">
+                <div>
+                  <dt>The problem</dt>
+                  <dd>Taking attendance by hand takes class time and is easy to get wrong.</dd>
+                </div>
+                <div>
+                  <dt>The solution</dt>
+                  <dd>A Python application that manages student registration, marks attendance using face recognition and stores every record in a database, all through a simple user interface.</dd>
+                </div>
+              </dl>
+
+              <ul class="check-list">
+                <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Student registration</li>
+                <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Attendance marking through face recognition</li>
+                <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Records stored in an SQLite database</li>
+                <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Simple user interface</li>
+                <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Built for efficient, accurate attendance tracking</li>
+              </ul>
+
+              <!-- Buttons stay hidden until valid URLs are set in js/main.js (CONFIG.links) -->
+              <div class="project-actions">
+                <a class="btn btn-primary" data-link="projectRepo" href="#" target="_blank" rel="noopener" hidden>
+                  <svg class="icon" aria-hidden="true"><use href="#i-github"/></svg> View Code
+                </a>
+                <a class="btn btn-secondary" data-link="projectDemo" href="#" target="_blank" rel="noopener" hidden>
+                  Live Demo <svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg>
+                </a>
+              </div>
+            </div>
+
+            <figure class="project-photo">
+              <img src="attendance-system.jpg" width="1000" height="477" loading="lazy" decoding="async"
+                   alt="Smart Attendance System output: a detection box around a blurred face with the name label Aryan Soni." />
+              <figcaption>Face recognition output with the detection box and name label (face blurred for privacy).</figcaption>
+            </figure>
+          </div>
+
+          <div class="flow-wrap">
+            <p class="mono-label">System workflow</p>
+            <ol class="flow">
+              <li>
+                <span class="flow-num mono">01</span>
+                <span class="flow-icon"><svg class="icon" aria-hidden="true"><use href="#i-user-plus"/></svg></span>
+                <h4>Student registration</h4>
+                <p>A student&rsquo;s details are added to the system.</p>
+              </li>
+              <li>
+                <span class="flow-num mono">02</span>
+                <span class="flow-icon"><svg class="icon" aria-hidden="true"><use href="#i-scan-face"/></svg></span>
+                <h4>Face recognition</h4>
+                <p>The student&rsquo;s face is recognized.</p>
+              </li>
+              <li>
+                <span class="flow-num mono">03</span>
+                <span class="flow-icon"><svg class="icon" aria-hidden="true"><use href="#i-clipboard-check"/></svg></span>
+                <h4>Attendance recording</h4>
+                <p>Attendance is marked automatically.</p>
+              </li>
+              <li>
+                <span class="flow-num mono">04</span>
+                <span class="flow-icon"><svg class="icon" aria-hidden="true"><use href="#i-database"/></svg></span>
+                <h4>Database storage</h4>
+                <p>Records are saved in SQLite.</p>
+              </li>
+            </ol>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE + EDUCATION ============ -->
+    <section class="section section-tint" id="experience" aria-labelledby="experience-title" data-section>
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-kicker"><span class="mono">04</span> Experience &amp; Education</p>
+          <h2 id="experience-title">Leading a creative team, <span class="accent">learning</span> to build.</h2>
+        </div>
+
+        <div class="xp-grid">
+          <article class="card xp-card reveal">
+            <div class="xp-meta">
+              <span class="chip chip-violet"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg> January 2025 &ndash; Present</span>
+            </div>
+            <h3>Founder / Agency Lead</h3>
+            <p class="xp-org">Create With Aryan &mdash; Animation &amp; YouTube Automation Agency</p>
+
+            <ul class="xp-list">
+              <li>Run a full-service animation agency delivering end-to-end YouTube video production, from script to final edit.</li>
+              <li>Lead and manage a team of animators, editors and voiceover artists while handling multiple projects.</li>
+              <li>Work directly with clients to ensure quality, revisions and on-time delivery.</li>
+            </ul>
+
+            <ul class="tag-row" aria-label="Skills demonstrated">
+              <li>Leadership</li><li>Project coordination</li><li>Communication</li><li>Execution</li>
+            </ul>
+          </article>
+
+          <article class="card edu-card reveal" style="--d:80ms">
+            <span class="skill-icon"><svg class="icon" aria-hidden="true"><use href="#i-graduation"/></svg></span>
+            <p class="mono-label">Education</p>
+            <h3>Jagran Lakecity University</h3>
+            <p class="edu-degree">B.Tech in Computer Science Engineering (AI/ML)</p>
+            <p class="edu-years"><span class="mono">2023&ndash;2027</span> &middot; Currently Pursuing</p>
+            <hr />
+            <p class="mono-label">Core concepts</p>
+            <ul class="tag-row"><li>Data Structures</li><li>DBMS</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ACHIEVEMENTS ============ -->
+    <section class="section" id="achievements" aria-labelledby="achievements-title" data-section>
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-kicker"><span class="mono">05</span> Achievements</p>
+          <h2 id="achievements-title">Hackathons &amp; <span class="accent">conferences.</span></h2>
+        </div>
+
+        <div class="ach-grid">
+          <article class="card ach-card reveal">
+            <span class="ach-num mono" aria-hidden="true">01</span>
+            <span class="skill-icon"><svg class="icon" aria-hidden="true"><use href="#i-award"/></svg></span>
+            <span class="chip">Hackathon</span>
+            <h3>Smart Synergy Hackathon</h3>
+            <p>Organized by Career College.</p>
+            <a class="text-link" data-link="certHackathon" href="#" target="_blank" rel="noopener" hidden>View certificate <svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></a>
+          </article>
+
+          <article class="card ach-card reveal" style="--d:80ms">
+            <span class="ach-num mono" aria-hidden="true">02</span>
+            <span class="skill-icon"><svg class="icon" aria-hidden="true"><use href="#i-award"/></svg></span>
+            <span class="chip chip-violet">Conference</span>
+            <h3>National Student Conference RAEMPS</h3>
+            <p>Hosted by SIRT College.</p>
+            <a class="text-link" data-link="certConference" href="#" target="_blank" rel="noopener" hidden>View certificate <svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section-contact" id="contact" aria-labelledby="contact-title" data-section>
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-copy reveal">
+            <p class="section-kicker"><span class="mono">06</span> Contact</p>
+            <h2 id="contact-title">Have an idea? Let&rsquo;s build something <span class="accent">meaningful.</span></h2>
+            <p class="lead">Open to conversations about AI/ML projects, collaborations and creative production work.</p>
+
+            <ul class="contact-list">
+              <li>
+                <a href="mailto:aryansoni.js@gmail.com">
+                  <span class="skill-icon"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg></span>
+                  <span><small>Email</small>aryansoni.js@gmail.com</span>
+                </a>
+              </li>
+              <li>
+                <a href="tel:+918817870107">
+                  <span class="skill-icon"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg></span>
+                  <span><small>Phone</small>+91 88178 70107</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/aryan-soni-5156822a7" target="_blank" rel="noopener">
+                  <span class="skill-icon"><svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg></span>
+                  <span><small>LinkedIn</small>Aryan Soni</span>
+                </a>
+              </li>
+            </ul>
+
+            <a class="btn btn-primary" href="mailto:aryansoni.js@gmail.com?subject=Hello%20Aryan">
+              <svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg> Email Me
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="logo" href="#home" aria-label="Aryan Soni — back to top">
+            <span class="logo-mark">AS</span>
+            <span class="logo-text">Aryan Soni</span>
+          </a>
+          <p>Building intelligent solutions. Leading creative ideas.</p>
+        </div>
+
+        <nav aria-label="Footer">
+          <ul class="footer-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="year">2026</span> Aryan Soni. All rights reserved.</p>
+        <ul class="socials">
+          <li><a class="icon-btn" href="https://www.linkedin.com/in/aryan-soni-5156822a7" target="_blank" rel="noopener" aria-label="Aryan Soni on LinkedIn"><svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg></a></li>
+          <li><a class="icon-btn" data-link="github" href="#" target="_blank" rel="noopener" aria-label="Aryan Soni on GitHub" hidden><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg></a></li>
+          <li><a class="icon-btn" href="mailto:aryansoni.js@gmail.com" aria-label="Email Aryan Soni"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg></a></li>
+        </ul>
+        <a class="to-top" href="#home">Back to top <svg class="icon" aria-hidden="true"><use href="#i-arrow-up"/></svg></a>
+      </div>
+    </div>
+  </footer>
+
+
+  <dialog class="resume-dialog" id="resume-dialog" aria-labelledby="resume-title">
+    <div class="resume-bar">
+      <h2 id="resume-title">Aryan Soni &mdash; Resume</h2>
+      <div class="resume-actions">
+        <a class="btn btn-primary btn-sm" href="Aryan_Soni_Resume.pdf" target="_blank" rel="noopener">
+          <svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right"/></svg> Open PDF
+        </a>
+        <button class="icon-btn" type="button" id="resume-close" aria-label="Close resume">
+          <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="resume-scroll">
+      <img src="resume-preview.jpg" width="1324" height="1872" decoding="async"
+           alt="Resume of Aryan Soni: B.Tech CSE (AI/ML) student, skills, project, experience and achievements." />
+    </div>
+  </dialog>
+
+  <a class="fab-top" id="fab-top" href="#home" aria-label="Back to top">
+    <svg class="icon" aria-hidden="true"><use href="#i-arrow-up"/></svg>
+  </a>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
